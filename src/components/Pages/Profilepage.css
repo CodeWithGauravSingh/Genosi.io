@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgb(12, 12, 110),rgb(10, 10, 73),black);
+    z-index: -1;
+   }
+   
+  
+   .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px black;
+    
+   }
+   
+  
+   .Profilepagesections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+   }
+   
+ 
+   .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4a5568;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+   }
+   
+   .btn:hover {
+    background-color: #718096;
+   }
+   
+   
+   h2 {
+    margin-bottom: 1rem;
+   }
+   
+.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #ffffff; /* Color of the stars */
+    border-radius: 50%;
+  }
+  
+  @keyframes twinkle {
+    to {
+      opacity: 0.8;
+    }
+  }
+  
+  h1{
+    color:white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 25%;
+  }
+  h3{
+    color:yellowgreen;
+    font-size: 30px;
+    font-weight: 800;
+  }
